@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: app-feign-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761
+server:
+  port: 5678
