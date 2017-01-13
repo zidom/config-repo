@@ -1,10 +1,10 @@
 
 spring:
   application:
-    name: app-feign-consumer
+    name: service-consumer-feign
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761
 server:
-  port: 5678
+  port: 28081

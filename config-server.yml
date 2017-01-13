@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+management:
+  context-path: /admin
+
+logging:
+  level:
+    com.netflix.discovery: 'debug'
+    org.springframework.cloud: 'trace'
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zidom/config-repo.git
+          basedir: local-config-repo
+debug: true
