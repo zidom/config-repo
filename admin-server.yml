@@ -2,4 +2,4 @@ spring:
   application:
     name: admin-server
 server:
-  port:10086
+  port: 10086
