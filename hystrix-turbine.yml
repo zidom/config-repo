@@ -5,3 +5,10 @@ management:
 spring:
   application:
     name: hystrix-turbine
+
+
+applications: consulhystrixclient
+turbine:
+  aggregator:
+    clusterConfig: ${applications}
+  appConfig: ${applications}
