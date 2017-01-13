@@ -1,5 +1,5 @@
 spring:
   application:
-    name: app-consumer
+    name: service-consumer
 server:
   port: 28080
