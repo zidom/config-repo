@@ -4,4 +4,4 @@ spring:
   application:
     name: hystrix-dashborad
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://huzd.me:9411
