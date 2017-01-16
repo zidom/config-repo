@@ -4,5 +4,5 @@ spring:
   application:
     name: hystrix-turbine
   zipkin:
-    base-url: http://huzd.me:9411
+    base-url: http://zipkin:9411
 
